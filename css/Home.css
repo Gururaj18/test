@@ -1,0 +1,147 @@
+body {
+    min-height: 100%;
+    background-image: url(../Images/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0px;
+
+}
+
+.bcont {
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: 2px underline double;
+    font-size: 350%;
+    border: 15px double aliceblue;
+    border-radius: 70px;
+    padding: 20px;
+    color: aliceblue;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+.titel {
+    color: rgb(0, 255, 234);
+    font-size: 200%;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    color: aliceblue;
+}
+
+.list {
+    color: #869960;
+
+}
+.list a{
+    color: #869960;
+    text-decoration: none;
+}
+.navm{
+    background-color:  rgb(111, 250, 127);
+    
+}
+.navm li {
+    padding: 10px 20px;
+    background-color: rgb(111, 250, 127);
+    list-style: none;
+    float: left;
+    margin-right: 0px;
+
+}
+
+.navm a {
+    text-decoration: none;
+}
+
+.navm li:hover {
+    background-color: rgb(20, 129, 32);
+    ;
+}
+
+.navm li ul {
+    position: absolute;
+    left: -9999px;
+}
+
+.navm li:hover ul {
+    left: auto;
+}
+
+.navm li li {
+    float: none;
+    margin-right: 0;
+}
+
+.navm li li a:hover {
+    background-color: #869960;
+    color: #FFF;
+}
+
+.navl {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+.dbar li {
+    list-style: none;
+    float: left;
+}
+
+.dbar a {
+    text-decoration: none;
+   
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+
+.dbar {
+    background-color: bisque;
+    margin: 0%;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    padding: 0 10px 0 10px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
