@@ -1,0 +1,26 @@
+body
+{
+background-color: aqua;	
+}
+h1 {
+	text-align: center;
+	text-underline-position: below;
+}
+
+.text {
+	background-color: grey;
+	color: blue;
+	padding: 30px;
+	border: 3px solid black;
+	margin-bottom: 0px;
+	width: auto;
+	box-sizing: border-box;
+}
+
+.box {
+	background-color: orange;
+	color: aqua;
+	border: 3px solid black;
+	width: auto;
+	box-sizing: border-box;
+}

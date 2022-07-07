@@ -1,0 +1,120 @@
+html {
+    background-color: #FFF;
+}
+
+.container {
+    width: 940px;
+    margin-top: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-area {
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+    margin-top: none;
+    border-top-color: aquamarine; 
+}
+
+.main-area {
+    width: 66%;
+    float: left;
+}
+
+.sidebar {
+    background-color: aquamarine;
+    padding: 10px;
+    width: 34%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.content-area {
+    margin-top: 0%;
+}
+
+/* site navigation*/
+.sitenav {
+    margin-bottom: 0%;
+}
+
+.sitenav li {
+
+    list-style: none;
+    float: left;
+    display: block;
+    padding: 20px 20px;
+    margin-bottom: 0px;
+    border-bottom: none;
+    background-color:  aquamarine;
+    border-color:  aquamarine;
+
+}
+
+.sitenav li a {
+    text-decoration: none;
+}
+
+.sitenav ul {
+    padding: 0%;
+}
+.sitenav ul :hover{
+    background-color:  rgb(48, 115, 93);;
+}
+
+/*End of nav*/
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+    margin: 0%;
+}
+/* Image banner*/
+img{
+    width: 100%;
+   height: auto;
+}
+.img-banner{
+    position: relative;
+}
+.banner-description{
+    position: absolute;
+    padding: 15px 25px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.img-banner img{
+    display: block;
+}
+ /* For desktop: */
+ .col-1 {width: 8.33%;}
+ .col-2 {width: 16.66%;}
+ .col-3 {width: 25%;}
+ .col-4 {width: 33.33%;}
+ .col-5 {width: 41.66%;}
+ .col-6 {width: 50%;}
+ .col-7 {width: 58.33%;}
+ .col-8 {width: 66.66%;}
+ .col-9 {width: 75%;}
+ .col-10 {width: 83.33%;}
+ .col-11 {width: 91.66%;}
+ .col-12 {width: 100%;}
+
+  @media only screen and (min-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+      }
+      
+  }
